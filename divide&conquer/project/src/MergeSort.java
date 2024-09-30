@@ -23,15 +23,6 @@ public class MergeSort {
         int index = 0;
         int[] objects = new int[leftHalf.length + rightHalf.length];
 
-
-        while (firstArrayIndex == leftHalf.length || secondArrayIndex == rightHalf.length) {
-            if (leftHalf[firstArrayIndex] <= rightHalf[secondArrayIndex]) {
-                objects[index++] = leftHalf[firstArrayIndex++];
-            } else {
-                objects[index++] = rightHalf[secondArrayIndex++];
-            }
-        }
-
         while (true) {
 
             if (firstArrayIndex == leftHalf.length && secondArrayIndex == rightHalf.length)
