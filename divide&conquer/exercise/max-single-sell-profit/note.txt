@@ -1,0 +1,5 @@
+T(n) = 2T(n/2) + 2 o(n/2) => T(n) = 2T(n/2) + o(n) => time complexity is : o(nlogn)
+
+we want to buy stock and sell that with purpose of maximum profit
+
+solution : we find max profit in the right section of array or left section of array or between left and right
